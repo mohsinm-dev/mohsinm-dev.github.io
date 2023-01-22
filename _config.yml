@@ -10,7 +10,7 @@ locale                   : "Wahcantt , Pakistan "
 title                    : "Mohsin Mehmood"
 title_separator          : "-"
 name                     : &name "Mohsin Mehmood"
-description              : &description "Deep Learning Intern @ Horizon Tech Pvt. Ltd. | AI & Data Science Trainee @ SayabiDevs"
+description              : &description "NLP Engineer @ Feedback AI | Deep Learning Intern @ Horizon Tech Pvt. Ltd. | AI & Data Science Trainee @ SayabiDevs"
 url                      : https://mohsinmahmood12.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -82,13 +82,11 @@ analytics:
 author:
   name             : "Mohsin Mehmood"
   avatar           : "1.png"
-  bio              : "Deep Learning Intern @ Horizon Tech Pvt. Ltd. | AI & Data Science Trainee @ SayabiDevs"
-  location         : "Location"
+  bio              : "NLP Engineer @ Feedback AI | Deep Learning Intern @ Horizon Tech Pvt. Ltd. | AI & Data Science Trainee @ SayabiDevs"
+  location         : "Wahcantt , Pakistan"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  email            : "mohsinmahmood675@gmail.com"
+  medium           : "https://medium.com/@mohsinmahmood675"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +94,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/mohsinmahmood12"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/mohsin-mehmood-08929115a/"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/mohsinmahmood00"
   vine             :
   weibo            :
   xing             :
