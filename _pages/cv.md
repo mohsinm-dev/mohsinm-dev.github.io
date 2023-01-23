@@ -7,13 +7,15 @@ redirect_from:
   - /resume
 ---
 
+<style type="text/css"> body{ font-size: 12pt; width:1100px; text-align: justify;} table, tr, td { border: none; font-size: 12pt;} .table td, .table th { font-size: 12px; } </style> 
+
 {% include base_path %}
+
+[Donwload PDF](https://mohsinmahmood12.github.io/files/Mohsin.pdf)
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Capital University of Science and Technology, 2023 (expected)
 
 Work experience
 ======
@@ -29,12 +31,17 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* Machine Learning
+  * Computer Vision
+  * Natural Language Processing
+  * Automatic Speech Recognition
+* Pytorch
+* Tensorflow
+* Keras
+* OpenCV
+* Git
+* Linux
 
 Publications
 ======
