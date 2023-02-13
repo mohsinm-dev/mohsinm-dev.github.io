@@ -11,7 +11,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download PDF](https://mohsinmahmood12.github.io/files/Mohsin_resume.pdf)
+[Download PDF](https://mohsinmahmood12.github.io/files/Mohsin.pdf)
 
 Education
 ======
