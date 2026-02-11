@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "Wahcantt , Pakistan "
+locale                   : "en-US"
 title                    : "Mohsin Mehmood"
 title_separator          : "-"
 name                     : &name "Mohsin Mehmood"
-description              : &description "NLP Engineer @ Feedback AI | Deep Learning Intern @ Horizon Tech Pvt. Ltd. | AI & Data Science Trainee @ SayabiDevs"
-url                      : https://mohsinmahmood12.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+description              : &description "Machine Learning Engineer | Open-Source Contributor (Flax, CPython, PyTorch)"
+url                      : https://mohsinm-dev.github.io
+baseurl                  : ""
+repository               : "mohsinm-dev/mohsinm-dev.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false
   google:
     tracking_id          :
 
@@ -82,11 +82,10 @@ analytics:
 author:
   name             : "Mohsin Mehmood"
   avatar           : "1.png"
-  bio              : "NLP Engineer @ Backfeed.ai | Deep Learning Intern @ Horizon Tech Pvt. Ltd. | AI & Data Science Trainee @ SayabiDevs"
-  location         : "Wahcantt , Pakistan"
+  bio              : "Machine Learning Engineer | Open-Source Contributor to Flax, CPython & PyTorch"
+  location         : "Islamabad, Pakistan"
   employer         :
   email            : "mohsinmahmood675@gmail.com"
-  medium           : "@mohsinmahmood675"
   uri              :
   bitbucket        :
   codepen          :
@@ -94,19 +93,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "mohsinmahmood12"
+  github           : "mohsinm-dev"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : "mohsin-mehmood-08929115a/"
+  linkedin         : "mohsin"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "mohsinmahmood00"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -172,16 +171,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
   portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -206,39 +196,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _portfolio
   - scope:
       path: ""
       type: portfolio
     values:
       layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
       author_profile: true
       share: true
 
@@ -252,7 +215,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Karachi
 
 
 # Plugins
