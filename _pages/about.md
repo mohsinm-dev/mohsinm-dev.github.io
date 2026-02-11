@@ -22,3 +22,5 @@ Previously, I've led AI teams across healthcare, consumer, and e-commerce -- shi
 - **Jul 2024** -- Lead Data Scientist at Exora AI (Singapore)
 - **Jan 2024** -- Senior ML Engineer at The Quell App (Canada)
 - **Apr 2023** -- ML Engineer at DiveDeepAI (Pakistan)
+
+<a href="/files/Mohsin.pdf" class="btn btn--primary">Download Resume (PDF)</a>
