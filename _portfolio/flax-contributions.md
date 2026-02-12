@@ -1,11 +1,11 @@
 ---
-title: "Google/Flax -- Open-Source Contributions"
-excerpt: "Top contributor to Google's Flax (JAX ecosystem) -- NNX transforms, variable management, model tabulation stability."
+title: "Google/Flax"
+excerpt: "Top contributor to Google's neural network library for JAX. Work spans NNX transforms, variable management, model tabulation stability, and documentation."
 collection: portfolio
 ---
 
-Top contributor (last 12 months) to [Google/Flax](https://github.com/google/flax), a neural network library for JAX. Contributions include NNX transforms, variable management, model tabulation stability, and documentation improvements focused on correctness and numerical stability.
+Top contributor (last 12 months) to [Google/Flax](https://github.com/google/flax), the neural network library for JAX. Contributions focused on NNX transforms, variable management, model tabulation stability, and documentation -- with emphasis on correctness, numerical stability, and maintainability.
 
-**Tech:** Python, JAX, Flax, NumPy
+`Python` `JAX` `Flax` `NumPy`
 
 [View Contributions](https://github.com/google/flax/commits?author=mohsinm-dev)

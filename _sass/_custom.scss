@@ -1,0 +1,276 @@
+/* ==========================================================================
+   Custom Styles — ML Engineer Portfolio
+   ========================================================================== */
+
+/* ---- Global ---- */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.011em;
+  color: #374151;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0f172a;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* ---- Masthead ---- */
+
+.masthead {
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+
+  .masthead__menu-item--lg {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #0f172a;
+  }
+
+  a {
+    color: #4b5563;
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: #0f172a;
+    }
+  }
+}
+
+/* ---- Author Sidebar ---- */
+
+.author__avatar {
+  img {
+    border-radius: 16px !important;
+    border: 2px solid #e5e7eb !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+.author__name {
+  font-weight: 700 !important;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+.author__bio {
+  color: #6b7280;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+.author__urls {
+  .social-icons {
+    li {
+      a {
+        color: #4b5563;
+        transition: color 0.15s ease;
+
+        &:hover {
+          color: #4f46e5;
+        }
+      }
+    }
+  }
+}
+
+/* ---- Page Content ---- */
+
+.page__content {
+  p {
+    line-height: 1.75;
+    color: #374151;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(79, 70, 229, 0.3);
+    transition: border-color 0.15s ease, color 0.15s ease;
+
+    &:hover {
+      border-bottom-color: #4f46e5;
+    }
+  }
+
+  h2 {
+    font-size: 1.3em;
+    margin-top: 2em;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid #f3f4f6;
+    color: #0f172a;
+  }
+
+  /* Timeline items */
+  ul {
+    li {
+      margin-bottom: 0.6em;
+      line-height: 1.6;
+
+      strong {
+        color: #0f172a;
+      }
+    }
+  }
+}
+
+/* ---- Resume Button ---- */
+
+.btn--primary {
+  background: #0f172a !important;
+  border-radius: 8px !important;
+  padding: 0.65em 1.5em !important;
+  font-weight: 600 !important;
+  font-size: 0.85em !important;
+  letter-spacing: 0.01em;
+  transition: all 0.2s ease;
+  display: inline-block;
+  margin-top: 1em;
+
+  &:hover {
+    background: #1e293b !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.25);
+  }
+}
+
+/* ---- Archive / Portfolio Cards ---- */
+
+.archive__item {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5em 1.75em;
+  margin-bottom: 1.25em;
+  transition: all 0.25s ease;
+
+  &:hover {
+    border-color: #c7d2fe;
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.08);
+    transform: translateY(-2px);
+  }
+
+  .archive__item-title {
+    font-size: 1.15em;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+    letter-spacing: -0.01em;
+
+    a {
+      color: #0f172a;
+      text-decoration: none;
+      border-bottom: none;
+
+      &:hover {
+        color: #4f46e5;
+      }
+    }
+  }
+
+  .archive__item-excerpt {
+    color: #6b7280;
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-top: 0.5em;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* ---- Portfolio Page Title ---- */
+
+.archive {
+  h1.page__title {
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: #0f172a;
+    margin-bottom: 0.5em;
+  }
+}
+
+/* ---- Footer ---- */
+
+.page__footer {
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+
+  .page__footer-follow {
+    .social-icons {
+      li {
+        a {
+          color: #6b7280;
+          transition: color 0.15s ease;
+
+          &:hover {
+            color: #4f46e5;
+          }
+        }
+      }
+    }
+  }
+
+  .page__footer-copyright {
+    color: #9ca3af;
+    font-size: 0.7em;
+  }
+}
+
+/* ---- Selection Color ---- */
+
+::selection {
+  background: #c7d2fe;
+  color: #1e1b4b;
+}
+
+/* ---- Subtle page load animation ---- */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#main {
+  animation: fadeInUp 0.4s ease both;
+}
+
+/* ---- Code blocks ---- */
+
+code {
+  font-family: "JetBrains Mono", Monaco, Consolas, monospace;
+  font-size: 0.85em;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+  color: #334155;
+}
+
+/* ---- Responsive polish ---- */
+
+@media (max-width: 600px) {
+  .archive__item {
+    padding: 1.25em;
+    margin-bottom: 1em;
+  }
+
+  .page__content h2 {
+    font-size: 1.15em;
+  }
+}
